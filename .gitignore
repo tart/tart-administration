@@ -1,0 +1,20 @@
+# Deployment revision directory
+.revision
+
+# Temporary files
+*.py[co]
+*.sw[po]
+*.orig
+*.rej
+
+# Logs
+pip-log.txt
+
+# Editors settings
+.project
+.pydevproject
+.settings
+.idea
+
+# Mac OS X Files
+.DS_Store

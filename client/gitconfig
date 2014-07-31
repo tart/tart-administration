@@ -1,0 +1,26 @@
+[core]
+    excludesfile = ~/.gitignore
+    ignorecase = false
+[alias]
+    ls = log --graph --pretty=format:'%Cred%h%Creset%C(yellow)%d%Creset - %C(bold blue)%an%Creset: %s %Cgreen(%cr)' --abbrev-commit --date=relative
+[branch]
+    autosetupmerge = always
+    autosetuprebase = always
+[push]
+    default = simple
+[color]
+    ui = true
+[diff]
+    tool = vimdiff
+    algorithm = histogram
+    context = 10
+[difftool]
+    prompt = false
+    trustExitCode = true
+[difftool "sourcetree"]
+    cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+    path = 
+[mergetool "sourcetree"]
+    cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+    trustExitCode = true
+

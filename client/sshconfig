@@ -1,0 +1,5 @@
+StrictHostKeyChecking no
+ServerAliveInterval 60
+VerifyHostKeyDNS yes
+VisualHostKey yes
+ForwardAgent yes

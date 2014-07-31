@@ -1,0 +1,8 @@
+\x auto
+\set ON_ERROR_ROLLBACK
+\set ON_ERROR_STOP
+\set PROMPT1 '%[%033[33;1m%]%x%[%033[0m%]%[%033[1m%]%/%[%033[0m%]%R%# '
+\pset linestyle unicode
+\pset border 2
+\pset format wrapped
+\timing
